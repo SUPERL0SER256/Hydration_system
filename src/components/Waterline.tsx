@@ -27,7 +27,7 @@ export default function Waterline() {
     if (val < 0.5) return "75%";
     if (val < 0.75) return "50%";
     return "25%";
-  });
+  }) as import("framer-motion").MotionValue<string>;
 
   // Text fragmentation effects (cleaner)
   const textY1 = useTransform(scrollYProgress, [0, 0.8, 1], ["0%", "0%", "-50%"]);
