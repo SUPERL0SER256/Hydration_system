@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-deep-navy: #0A1128;
+  --color-electric-blue: #0047FF;
+  --color-lime-green: #D6FF00;
+  --color-orange: #FF5C00;
+  --color-red: #FF003D;
+  --color-yellow: #FFD600;
+  --color-sky-blue: #00D1FF;
+  --color-white: #FFFFFF;
+
+  --font-sans: var(--font-inter);
+  --font-anton: var(--font-anton);
+}
+
+body {
+  background: var(--color-deep-navy);
+  color: var(--color-white);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-anton);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
