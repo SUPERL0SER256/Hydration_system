@@ -9,11 +9,11 @@ export default function Home() {
         
         {/* Chaotic Background Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <span className="absolute top-[10%] left-[5%] text-[10vw] font-anton font-bold text-electric-blue opacity-50 rotate-[-15deg] hover:rotate-0 transition-transform cursor-default pointer-events-auto">WATER</span>
-          <span className="absolute top-[20%] right-[10%] text-[8vw] font-anton font-bold text-orange opacity-60 rotate-[20deg] hover:-rotate-12 transition-transform cursor-default pointer-events-auto">ELECTROLYTES</span>
-          <span className="absolute bottom-[30%] left-[15%] text-[12vw] font-anton font-bold text-lime-green opacity-40 rotate-[10deg] hover:-rotate-6 transition-transform cursor-default pointer-events-auto">SUGARS</span>
-          <span className="absolute bottom-[20%] right-[5%] text-[9vw] font-anton font-bold text-yellow opacity-50 rotate-[-25deg] hover:rotate-12 transition-transform cursor-default pointer-events-auto">ENERGY</span>
-          <span className="absolute top-[40%] right-[30%] text-[15vw] font-anton font-bold text-red opacity-30 -z-10 blur-[2px]">SWEAT</span>
+          <span className="absolute top-[10%] left-[5%] text-[6vw] font-anton font-bold text-electric-blue opacity-50 rotate-[-15deg] hover:rotate-0 transition-transform cursor-default pointer-events-auto">WATER</span>
+          <span className="absolute top-[20%] right-[10%] text-[3vw] font-anton font-bold text-orange opacity-60 rotate-[20deg] hover:-rotate-12 transition-transform cursor-default pointer-events-auto">ELECTROLYTES</span>
+          <span className="absolute bottom-[30%] left-[15%] text-[5vw] font-anton font-bold text-lime-green opacity-40 rotate-[10deg] hover:-rotate-6 transition-transform cursor-default pointer-events-auto">SUGARS</span>
+          <span className="absolute bottom-[20%] right-[5%] text-[4vw] font-anton font-bold text-yellow opacity-50 rotate-[-25deg] hover:rotate-12 transition-transform cursor-default pointer-events-auto">ENERGY</span>
+          <span className="absolute top-[40%] right-[30%] text-[10vw] font-anton font-bold text-red opacity-30 -z-10 blur-[2px]">SWEAT</span>
         </div>
 
         {/* Main Hero Text */}
